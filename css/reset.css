@@ -1,0 +1,27 @@
+/* Global Reset Starts */
+*, :before, :after {margin: 0; padding: 0; -o-box-sizing: border-box; -ms-box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+HTML, BODY {width: 100%; height: 100%;}
+BODY {position: relative; color: #000; font-size: 16px; font-family: Arial, Helvetica, sans-serif; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-tap-highlight-color: transparent; /*-webkit-font-smoothing: antialiased;*/}
+TABLE {width: 100%; border-spacing: 0;}
+A, IMG, ABBR, ACRONYM {border: none; outline: none;}
+A {color: #27AAE1; text-decoration: none;}
+A:active, A:hover {outline: none;}
+IMG, VIDEO, AUDIO, IFRAME, CANVAS {display: block; width: 100%; max-width: 100%;}
+IMG {-ms-interpolation-mode: bicubic;}
+H1, H2, H3, H4, H5, H6, P {margin: 0; padding: 0; line-height: inherit;}
+UL, OL {margin-left: 25px;}
+BUTTON, INPUT, SELECT, TEXTAREA {font-family: Arial, Helvetica, sans-serif;}
+BUTTON {-webkit-tap-highlight-color: transparent; outline: none;}
+BUTTON::-moz-focus-inner {padding:0; border:0;}
+BUTTON[DISABLED], INPUT[DISABLED] {cursor: default;}
+FIELDSET {border: none;}
+INPUT[type="text"], INPUT[type="email"], INPUT[type="password"], SELECT, TEXTAREA {width: 100%; resize: none;}
+[HIDDEN] {display: none;}
+ARTICLE, ASIDE, DETAILS, FIGCAPTION, FIGURE, FOOTER, HEADER, HGROUP, NAV, SECTION, SUMMARY {display: block;}
+SUB, SUP {position: relative; font-size: 75%; line-height: 0; vertical-align: baseline;}
+SUP {top: -0.5em;}
+SUB {bottom: -0.25em;}
+B, STRONG {font-weight: bold;}
+::selection {background: #FFC740; color: black; text-shadow: none;}
+::-moz-selection {background: #FFC740; color: black; text-shadow: none;}
+/* Global Reset Ends */
